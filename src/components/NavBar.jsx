@@ -59,12 +59,12 @@ function CollapsibleExample() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link className="mr-8 text-md" href="#deets">
+            <Nav.Link className="mr-8 text-md  ml-8 lg:ml-0" href="#deets">
               Login
             </Nav.Link>
             <Nav.Link
               href="#deets"
-              className="text-md lg:border-2 border-gray-800 lg:px-4 rounded-2xl"
+              className="text-md lg:border-2 ml-8 lg:ml-0 border-gray-800 lg:px-4 rounded-2xl"
             >
               Register
             </Nav.Link>
