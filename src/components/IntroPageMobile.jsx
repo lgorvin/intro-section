@@ -1,28 +1,35 @@
 import React from "react";
-import desktopBg from "../assets/images/image-hero-desktop.png";
+import mobileBg from "../assets/images/image-hero-mobile.png";
 
-const IntroPage = () => {
+const IntroPageMobile = () => {
   return (
     <div className="h-[900px] almostWhiteBg">
       <div>
-        <h1 className="absolute inline font-bold almostBlack text-5xl md:text-6xl xl:text-7xl mt-44 lg:mt-32 ml-32 duration-300">
-          Make <br /> remote work
-        </h1>
-        <p className="absolute inline mediumGray text-md mt-80 ml-32">
+        {/* <p className="absolute inline mediumGray text-md mt-80 ml-32">
           Get your team in sync, no matter your location. <br /> Streamline
           processes, create team rituals, and <br /> watch productivity soar.
         </p>
         <button className="absolute inline almostWhite almostBlackBg active:bg-white active:text-black text-md border-2 border-slate-800 p-2 px-4 rounded-xl mt-[440px] ml-32">
           Learn more
-        </button>
-        <img
-          src={desktopBg}
-          className="hidden lg:inline scale-50 lg:scale-75 xl:scale-100 mr-48 float-right pt-[40px] h-[600px] duration-500"
-          alt=""
-        />
-        <div className="hidden lg:inline absolute scale-100 mt-[570px]">
+        </button> */}
+        <img src={mobileBg} className=" xl:inline  w-screen" alt="" />
+        <div className="w-screen">
+          <h1 className="text-center font-bold almostBlack text-4xl md:text-6xl xl:text-7xl mt-16 lg:mt-32 duration-300">
+            Make remote work
+          </h1>
+          <p className="mediumGray text-center text-md mt-4">
+            Get your team in sync, no matter your <br /> location. Streamline
+            processes, create <br /> team rituals, and watch productivity soar.
+          </p>
+          <div className="flex justify-center">
+            <button className="almostWhite almostBlackBg mt-3 active:bg-white active:text-black text-md border-2 border-slate-800 p-2 px-4 rounded-xl">
+              Learn more
+            </button>
+          </div>
+        </div>
+        <div className="flex justify-center mt-12 scale-75">
           <svg
-            className="inline ml-32"
+            className="inline mr-3"
             width="114"
             height="20"
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +40,7 @@ const IntroPage = () => {
             />
           </svg>
           <svg
-            className="inline ml-8"
+            className="inline mr-3"
             width="73"
             height="36"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +51,7 @@ const IntroPage = () => {
             />
           </svg>
           <svg
-            className="inline ml-8"
+            className="inline mr-3"
             width="90"
             height="20"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +63,7 @@ const IntroPage = () => {
             />
           </svg>
           <svg
-            className="inline ml-8"
+            className="inline "
             width="83"
             height="24"
             xmlns="http://www.w3.org/2000/svg"
@@ -72,4 +79,4 @@ const IntroPage = () => {
   );
 };
 
-export default IntroPage;
+export default IntroPageMobile;
