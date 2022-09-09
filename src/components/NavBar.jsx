@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function CollapsibleExample() {
   return (
     <Navbar
-      className="almostWhiteBg navbars duration-300"
+      className="almostWhiteBg mt-2 mb-3 navbars duration-300"
       collapseOnSelect
       expand="lg"
       variant="light"
