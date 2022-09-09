@@ -12,9 +12,14 @@
     font-family: 'Epilogue', sans-serif;
 }
 
-body {
+* {
     background: hsl(0, 0%, 98%);
 }
+
+.navbar-toggler {
+    border: none!important;
+}
+
 
 .almostWhite {
     color: hsl(0, 0%, 98%);

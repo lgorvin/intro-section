@@ -4,7 +4,7 @@ import desktopBg from "../assets/images/image-hero-desktop.png";
 const IntroPage = () => {
   return (
     <div className="h-[900px] almostWhiteBg">
-      <div>
+      <div className="mt-12">
         <h1 className="absolute inline font-bold almostBlack text-5xl md:text-6xl xl:text-7xl mt-44 lg:mt-32 ml-32 duration-300">
           Make <br /> remote work
         </h1>
