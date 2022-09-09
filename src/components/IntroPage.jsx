@@ -12,7 +12,7 @@ const IntroPage = () => {
           Get your team in sync, no matter your location. <br /> Streamline
           processes, create team rituals, and <br /> watch productivity soar.
         </p>
-        <button className="absolute inline almostWhite almostBlackBg text-md border-2 border-slate-800 p-2 px-4 rounded-xl mt-[440px] ml-32">
+        <button className="absolute inline almostWhite almostBlackBg active:bg-white active:text-black text-md border-2 border-slate-800 p-2 px-4 rounded-xl mt-[440px] ml-32">
           Learn more
         </button>
         <img
